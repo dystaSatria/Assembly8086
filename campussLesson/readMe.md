@@ -34,3 +34,23 @@ JC Son
 MOV [3000], AL
 
 ```
+
+* #### 2. Hafızada 51000H adresinde bulunan 8 bitlik sayı 100 sayısından küçük ise sayıyı 52000H adresine, eşit ise 53000H adresine ve büyük ise 54000H adresine kaydeden programı yazınız.
+
+```
+51000H  : 5000:1000
+52000H : 5000:2000 
+53000H  : 5000:3000 
+54000H : 5000:4000
+  
+```
+```assembly
+MOV DX, 5000h 
+MOV DS, DX 
+MOV AL, [1000] 
+CMP AL, 64h
+j
+
+```
+
+
