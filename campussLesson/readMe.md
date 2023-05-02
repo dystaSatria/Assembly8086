@@ -49,8 +49,13 @@ MOV DX, 5000h
 MOV DS, DX 
 MOV AL, [1000] 
 CMP AL, 64h
-j
-
+JC Kucuk
+JZ Esit
+MOV [4000], AL 
+JMP Son
+MOV [2000], AL
+JMP Son 
+MOV [3000], AL
 ```
 
 
