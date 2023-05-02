@@ -136,6 +136,9 @@ MOV [000A], DL
 ```
 
 
+* #### Hafızada 10005h adresinde bulunan 8 bitlik sayının (D7 – D0 || D7-0 ) 4. biti (D3) 1 ise sayıyı A0006h adresine transfer eden bir program yazınız.
+
+
 
 
 
