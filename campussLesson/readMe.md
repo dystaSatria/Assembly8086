@@ -59,3 +59,9 @@ MOV [3000], AL ;esit
 ```
 * #### 3.  Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
 
+```
+A1000H sayı : A000:1000 (AL) 
+AB000H : A000:B000 (Tek)
+```
+
+
