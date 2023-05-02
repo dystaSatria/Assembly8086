@@ -187,5 +187,8 @@ JNZ Tekrar
 ```
 
 
+* #### Hafızada 52000h adresinden başlayan 56 bitlik bir veriyi E3000h adresinden itibaren transfer eden bir program
+yazınız.
+
 
 
