@@ -111,6 +111,10 @@ MOV [C000], BL ;Cift:
 Son:
 ```
 
+<br>
+<br>
+<br>
+
 * #### 1-14 e kadar olan sayıların toplamını 0000AH adresine kaydeden programı yazınız.
 
 ```
