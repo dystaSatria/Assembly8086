@@ -111,5 +111,28 @@ MOV [C000], BL ;Cift:
 Son:
 ```
 
+* #### 1-14 e kadar olan sayıların toplamını 0000AH adresine kaydeden programı yazınız.
+
+```
+0000AH : 0000:000A
+Sayaç : CL
+```
+
+```assembly
+MOV CX, 0000h 
+MOV DS, CX 
+MOV CL, 00h 
+MOV DL, 00h
+Tekrar : INC CL
+ADD DL,CL
+CMP CL, 0Eh 
+JNZ Tekrar 
+MOV [000A], DL
+
+```
+
+
+
+
 
 
