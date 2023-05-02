@@ -35,6 +35,10 @@ MOV [3000], AL
 
 ```
 
+<br>
+<br>
+<br>
+
 * #### 2. Hafızada 51000H adresinde bulunan 8 bitlik sayı 100 sayısından küçük ise sayıyı 52000H adresine, eşit ise 53000H adresine ve büyük ise 54000H adresine kaydeden programı yazınız.
 
 ```
