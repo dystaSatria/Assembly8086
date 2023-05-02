@@ -138,6 +138,25 @@ MOV [000A], DL
 
 * #### Hafızada 10005h adresinde bulunan 8 bitlik sayının (D7 – D0 || D7-0 ) 4. biti (D3) 1 ise sayıyı A0006h adresine transfer eden bir program yazınız.
 
+```
+10005H : 1000:0005 
+A0006H : A000:0006
+```
+
+```assembly
+MOV CX, 1000H 
+MOV DS, CX 
+MOV BL, [0005] 
+MOV DL, BL
+AND DL, 08H 
+CMP DL, 00H 
+JZ Son
+MOV CX, A000H 
+MOV DS, CX 
+MOV [0006], BL
+Son :
+```
+
 
 
 
