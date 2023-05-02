@@ -1,6 +1,6 @@
 # The Questions cheatsheet (Hft 7 + 6)
 
-* #### 1.  Hafızada 11000H adresinde bulunan 8 bitlik birinci sayı 12000H adresinde yeralan ikinci sayıdan büyük veya eşit ise birinci sayıyı 13000H adresine kaydeden programı yazınız.
+* #### Hafızada 11000H adresinde bulunan 8 bitlik birinci sayı 12000H adresinde yeralan ikinci sayıdan büyük veya eşit ise birinci sayıyı 13000H adresine kaydeden programı yazınız.
 
 ```
 11000H sayı1 : 1000:1000 (AL) 
@@ -39,7 +39,7 @@ MOV [3000], AL
 <br>
 <br>
 
-* #### 2. Hafızada 51000H adresinde bulunan 8 bitlik sayı 100 sayısından küçük ise sayıyı 52000H adresine, eşit ise 53000H adresine ve büyük ise 54000H adresine kaydeden programı yazınız.
+* #### Hafızada 51000H adresinde bulunan 8 bitlik sayı 100 sayısından küçük ise sayıyı 52000H adresine, eşit ise 53000H adresine ve büyük ise 54000H adresine kaydeden programı yazınız.
 
 ```
 51000H  : 5000:1000
@@ -69,7 +69,7 @@ son:
 
 
 
-* #### 3.  Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
+* #### Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
 
 ```
 A1000H sayı : A000:1000 (AL) 
