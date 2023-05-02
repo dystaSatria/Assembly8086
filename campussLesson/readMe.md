@@ -1,4 +1,4 @@
-# The Questions cheatsheet
+# The Questions cheatsheet (Hft 7 + 6)
 
 * #### 1.  Hafızada 11000H adresinde bulunan 8 bitlik birinci sayı 12000H adresinde yeralan ikinci sayıdan büyük veya eşit ise birinci sayıyı 13000H adresine kaydeden programı yazınız.
 
@@ -57,5 +57,5 @@ MOV [2000], AL
 JMP Son 
 MOV [3000], AL
 ```
-
+* #### 3.  Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
 
