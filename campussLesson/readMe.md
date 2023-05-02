@@ -69,7 +69,7 @@ son:
 
 
 
-* #### Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
+* #### Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise sayıyı AB000H adresine kaydeden programı yazınız.
 
 ```
 A1000H sayı : A000:1000 (AL) 
@@ -86,4 +86,17 @@ JZ Son
 MOV [B000], BL
 Son :
 ```
+<br>
+<br>
+<br>
+
+
+* #### Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
+
+```
+A1000H sayı : A000:1000 (AL) 
+AB000H : A000:B000 (Tek)
+AC000H : : A000:C000
+```
+
 
