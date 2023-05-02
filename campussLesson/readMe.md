@@ -56,6 +56,8 @@ JMP Son
 MOV [2000], AL ;kucuk
 JMP Son 
 MOV [3000], AL ;esit
+
+son:
 ```
 * #### 3.  Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
 
@@ -63,5 +65,15 @@ MOV [3000], AL ;esit
 A1000H sayı : A000:1000 (AL) 
 AB000H : A000:B000 (Tek)
 ```
-
+```assembly
+MOV CX, A000h 
+MOV DS, CX 
+MOV AL, [1000] 
+MOV BL,AL 
+AND AL, 01h 
+CMP AL, 00h
+JZ Son
+MOV [B000], BL
+Son :
+```
 
