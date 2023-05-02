@@ -192,5 +192,20 @@ JNZ Tekrar
 * #### Hafızada 52000h adresinden başlayan 56 bitlik bir veriyi E3000h adresinden itibaren transfer eden bir program
 yazınız.
 
+```assembly
 
+MOV CX, 5000h 
+MOV DS, CX 
+MOV SI, 2000 
+MOV DI, 3000
+Tekrar : MOV AL, [SI] 
+MOV CX, E000h 
+MOV DS, CX 
+MOV [DI], AL
+INC DI
+INC SI
+CMP DI, 3007h 
+JZ Tekrar
+
+```
 
