@@ -53,9 +53,9 @@ JC Kucuk
 JZ Esit
 MOV [4000], AL 
 JMP Son
-MOV [2000], AL //kucuk
+MOV [2000], AL ;kucuk
 JMP Son 
-MOV [3000], AL //esit
+MOV [3000], AL ;esit
 ```
 * #### 3.  Hafızada A1000H adresinde bulunan 8 bitlik sayı tek ise, sayıyı AB000H adresine çift ise AC000H adresine kaydeden programı yazınız.
 
