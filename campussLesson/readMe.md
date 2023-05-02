@@ -135,6 +135,9 @@ MOV [000A], DL
 
 ```
 
+<br>
+<br>
+<br>
 
 * #### Hafızada 10005h adresinde bulunan 8 bitlik sayının (D7 – D0 || D7-0 ) 4. biti (D3) 1 ise sayıyı A0006h adresine transfer eden bir program yazınız.
 
@@ -156,8 +159,32 @@ MOV DS, CX
 MOV [0006], BL
 Son :
 ```
+<br>
+<br>
+<br>
 
 
+* #### E1200h adresinden başlayan toplam 100H Byte uzunluğundaki 8 bitlik pozitif sayılardan oluşan veri içinde kaç adet tek sayı olduğunu hesaplayan bir program yazınız.
+
+```
+E1200H  İlk sayı : E000:1200
+E12FFH  Son sayı : E000:12FF
+```
+
+```assembly
+MOV BX, E000h 
+MOV DS, BX 
+MOV DI, 1200h 
+MOV CX, 0000h 
+Tekrar : MOV AL, [DI] 
+SHR AL,1
+JNC Git
+INC CX
+Git : INC DI
+CMP DI, 1300h 
+JNZ Tekrar
+
+```
 
 
 
