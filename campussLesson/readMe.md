@@ -1,4 +1,4 @@
-# The Question's cheatsheet (Hft
+# The Question's cheatsheet (Hf
 
 * #### Hafızada 11000H adresinde bulunan 8 bitlik birinci sayı 12000H adresinde yeralan ikinci sayıdan büyük veya eşit ise birinci sayıyı 13000H adresine kaydeden programı yazınız.
 
