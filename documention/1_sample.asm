@@ -1,4 +1,4 @@
-name "hi-world"
+name "Hello World"
 
 ; this example prints out  "hello world!"
 ; by writing directly to video memory.
