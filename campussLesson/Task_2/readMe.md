@@ -11,4 +11,4 @@
 <br>
 <br>
 
-* ## Problem solving can be seen in the ```php Task 2.asm ```.
+* ## Problem solving can be seen in the ``` Task 2.asm ```.
