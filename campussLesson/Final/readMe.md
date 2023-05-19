@@ -29,6 +29,16 @@ Son:
 MOV BX, C000h ;BX <- C000h 
 MOV DS, BX ;DS <- BX 
 MOV DL, [2200] ;DL <- [DS:2200]
+
+MOV BX, C000h ;BX <- C000H 
+MOV DS, BX ;DS <- BX 
+MOV DL, [2200] ;DL <- [DS:2200]
+CMP DL, 4Bh ;Compare DL, 4Bh
+JZ Devam ;ZF==1 <- Devam
+CMP DL, 6Bh ;Compare DL, 6Bh
+JZ Devam ;ZF==1 <- Devam
+
+
 ```
 <br>
 <br>
