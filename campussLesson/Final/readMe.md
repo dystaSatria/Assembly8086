@@ -9,6 +9,15 @@ bir program yazınız.
 MOV BX, C000h ;BX <- C000h 
 MOV DS, BX ;DS <- BX 
 MOV DL, [2200]  ; DL <- [DS:2200]
+
+CMP DL, 4Bh ;Compare DL, 4Bh
+JNZ Son ;ZF==0 -> Son
+
+MOV BX, F000h ;BX <- F000h
+MOV DS,BX  ; DS <- BX
+MOV[2500], 00h ; [DS:2500] <- 00h
+
+Son:
 ```
 
 if u use JNC :
