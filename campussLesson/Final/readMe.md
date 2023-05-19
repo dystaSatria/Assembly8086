@@ -2,8 +2,7 @@
 # Summary of Problems and Solutions
 
 
-* #### C2200h adresindeki veri ‘K’ ise F2500h adresini sıfırlayan 
-bir program yazınız.
+* #### C2200h adresindeki veri ‘K’ ise F2500h adresini sıfırlayan bir program yazınız.
 
 ```assembly
 MOV BX, C000h ;BX <- C000h 
