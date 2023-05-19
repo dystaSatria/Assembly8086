@@ -36,9 +36,14 @@ MOV DL, [2200] ;DL <- [DS:2200]
 CMP DL, 4Bh ;Compare DL, 4Bh
 JZ Devam ;ZF==1 <- Devam
 CMP DL, 6Bh ;Compare DL, 6Bh
-JZ Devam ;ZF==1 <- Devam
+JZ Devam ;
 
+JMP Son
 
+Devam: MOV BX, F000h
+       MOV DS, BX
+       MOV[2500], 00h
+Son: 
 ```
 <br>
 <br>
