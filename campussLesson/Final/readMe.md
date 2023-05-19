@@ -23,29 +23,12 @@ Son:
 <br>
 <br>
 
-* #### Hafızada 51000H adresinde bulunan 8 bitlik sayı 100 sayısından küçük ise sayıyı 52000H adresine, eşit ise 53000H adresine ve büyük ise 54000H adresine kaydeden programı yazınız.
+* ####  C2200h adresindeki veri ‘K’ veya ‘k’ ise F2500h adresini sıfırlayan bir program yazınız.
 
-```
-51000H  : 5000:1000
-52000H : 5000:2000 
-53000H  : 5000:3000 
-54000H : 5000:4000
-  
-```
 ```assembly
-MOV DX, 5000h 
-MOV DS, DX 
-MOV AL, [1000] 
-CMP AL, 64h
-JC Kucuk
-JZ Esit
-MOV [4000], AL 
-JMP Son
-MOV [2000], AL ;kucuk
-JMP Son 
-MOV [3000], AL ;esit
-
-son:
+MOV BX, C000h ;BX <- C000h 
+MOV DS, BX ;DS <- BX 
+MOV DL, [2200] ;DL <- [DS:2200]
 ```
 <br>
 <br>
