@@ -64,6 +64,10 @@ MOV DL, [2200] ;DL  [DS:2200]
 MOV DH, [2300] ;DH  [DS
 
 CMP DL, 4Bh ;Compare DL , 4Bh
+JNZ Son ;ZF==0  Son
+
+CMP DH, 70h ;Compare DH, 70h
+JNZ Son ;ZF==0  Devam
 ```
 <br>
 <br>
