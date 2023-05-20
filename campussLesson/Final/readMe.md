@@ -51,7 +51,7 @@ Son:
 
 
 
-* #### 
+* #### C2200h adresindeki veri ‘K’ ve C2300h adresindeki veri ‘p’ ise F2500h adresini sıfırlayan bir program yazınız.
 
 ```
 A1000H sayı : A000:1000 (AL) 
