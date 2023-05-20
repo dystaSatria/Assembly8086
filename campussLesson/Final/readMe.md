@@ -68,6 +68,10 @@ JNZ Son ;ZF==0  Son
 
 CMP DH, 70h ;Compare DH, 70h
 JNZ Son ;ZF==0  Devam
+
+MOV BX , F000h ;BX  F000h 
+MOV DS, BX ;DS  BX 
+MOV [2500], 00h ;[DS:2500]  00h
 ```
 <br>
 <br>
