@@ -58,15 +58,10 @@ A1000H sayı : A000:1000 (AL)
 AB000H : A000:B000 (Tek)
 ```
 ```assembly
-MOV CX, A000h 
-MOV DS, CX 
-MOV AL, [1000] 
-MOV BL,AL 
-AND AL, 01h 
-CMP AL, 00h
-JZ Son
-MOV [B000], BL
-Son :
+MOV BX, C000h ;BX  C000h 
+MOV DS, BX ;DS  BX 
+MOV DL, [2200] ;DL  [DS:2200]
+MOV DH, [2300] ;DH  [DS
 ```
 <br>
 <br>
