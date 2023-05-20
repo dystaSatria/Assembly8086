@@ -72,6 +72,8 @@ JNZ Son ;ZF==0  Devam
 MOV BX , F000h ;BX  F000h 
 MOV DS, BX ;DS  BX 
 MOV [2500], 00h ;[DS:2500]  00h
+
+Son: 
 ```
 <br>
 <br>
