@@ -62,6 +62,8 @@ MOV BX, C000h ;BX  C000h
 MOV DS, BX ;DS  BX 
 MOV DL, [2200] ;DL  [DS:2200]
 MOV DH, [2300] ;DH  [DS
+
+CMP DL, 4Bh ;Compare DL , 4Bh
 ```
 <br>
 <br>
