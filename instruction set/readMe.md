@@ -9,6 +9,6 @@
 | ``` POP```  | Used to get a word from the top of the stack to the provided position. |
 | ``` PUSHA```  | It is used to put all the records on the stack. |
 | ``` POPA```  | It is used to get words from the stack to all records. |
-| ``` POP```  | Used to get a word from the top of the stack to the provided position. |
-| ``` PUSHA```  | It is used to put all the records on the stack. |
+| ``` XCHG```  | It is used to exchange data from two locations. |
+| ``` XLAT```  | Used to translate a byte in AL using a table in memory. |
 
