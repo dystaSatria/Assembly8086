@@ -1,8 +1,8 @@
 # Instruction Sets Code in Assembly Emu8086
 
-### Directory Operations
+### Data Transfer Instructions
 
-| Command |      |
+| Command |      |           |
 | ----------- | ----------- |
 | ``` MOV``` | Copying the byte or word from the provided source to the provided destinationusing for. |
 | ``` PPUSH```  | It is used to put a word at the top of the stack. |
@@ -11,4 +11,7 @@
 | ``` POPA```  | It is used to get words from the stack to all records. |
 | ``` XCHG```  | It is used to exchange data from two locations. |
 | ``` XLAT```  | Used to translate a byte in AL using a table in memory. |
+
+
+
 
