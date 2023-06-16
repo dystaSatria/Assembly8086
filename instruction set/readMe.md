@@ -12,6 +12,18 @@
 | ``` XCHG```  | It is used to exchange data from two locations. |
 | ``` XLAT```  | Used to translate a byte in AL using a table in memory. |
 
+<br>
+<br>
+<br>
+
+
+### Data Transfer Instructions
+
+| Command |      |           
+| ----------- | ----------- |
+| ``` OF``` | |   It is used to read a byte or word from the ğrovided port to the accumulator. |
+| ``` OUT```  | It is used to send a byte or word from the accumulator to the supplied port. |
+
 
 
 
