@@ -2,7 +2,10 @@
 # Summary of Problems and Solutions
 
 
-* #### Hafızada 11000H adresinde bulunan 8 bitlik birinci sayı 12000H adresinde yeralan ikinci sayıdan büyük veya eşit ise birinci sayıyı 13000H adresine kaydeden programı yazınız.
+* #### If the first 8-bit number at address 11000H is greater than or equal to the second number at address 12000H, write the program that saves the first number at address 13000H.
+
+<br>
+<br>
 
 ```
 11000H sayı1 : 1000:1000 (AL) 
